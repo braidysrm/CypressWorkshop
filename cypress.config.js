@@ -7,4 +7,6 @@ module.exports = defineConfig({
     },
 specPattern:"test/e2e/scenarios/*.test.js",
   },
+  
+chromeWebSecurity: false,
 });
