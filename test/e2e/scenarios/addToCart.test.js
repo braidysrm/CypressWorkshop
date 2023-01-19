@@ -14,6 +14,7 @@ describe("Given I want to add an item to the shopping cart", () => {
         cy.get(itemsPage.addToCartBackPackButton).should("be.visible")
         cy.get(itemsPage.addToCartBackPackButton).click()
         cy.get(itemsPage.removeFromCartBackPackButton).should("be.visible")
-        cy.get (itemsPage.shoppinCartBadge).should("be.visible")                                                                     
+        cy.get (itemsPage.shoppinCartBadge).should("be.visible")   
+                                                                          
     } )
 } )
